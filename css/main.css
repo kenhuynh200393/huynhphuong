@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+.container{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255,255,255,1.00);
+	position: fixed;
+	z-index: 99999;
+}
+.header:hover{
+	background-color: rgba(186,186,186,1.00);
+	transition: all 1.2s ease;
+}
+.header:hover a{
+	color: rgba(0,0,0,1.00);
+	transition: all .7s ease;
+}
+.logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.logo img{
+	with: 100%;
+	height: 100%;
+	padding: 0 0 0 20px;
+}
+.menu{
+	width: 70%;
+	height: 100%;
+	float: left;
+	padding-left: 10%;
+}
+.menu ul{
+	list-style-type: none;
+	}
+.menu ul li{
+	width: 10%;
+	float: left;
+	padding: 0px 40px;
+	position: relative;
+	display: inline-block;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+	transition: all 5s ease;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgba(23,1,1,1.00);
+	font-weight: bold;
+}
+.menu ul li ul{
+	width: 100%;
+	position: absolute;
+	top: 34px;
+	left: 0px;
+	visibility: hidden;
+	background-color: rgba(255,255,255,0.9);
+	padding: 20px 0px 0px 0px;
+}
+.menu ul li ul li{
+	float: none;
+	width: 100%;
+	height: 50px;
+}
+.banner{
+	background-image:  url(../images/banner.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 1150px;
+	background-repeat: no-repeat;
+	color: white;
+}
+.noidungbanner{
+	width: 40%;
+	height: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding:20% 0% 0% 50%;
+	color: white;
+}
+.noidungbanner h3{
+	color: rgba(255,0,4,1.00);
+}
+
+.banner button{
+	background-color: rgba(0,87,255,1.00);
+	border: solid;
+	border-radius: 3000px;
+	height: 60px;
+	width: 120px;
+	color: white;
+	margin-top: 30px;
+}
+
+.banner button a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+.banner button:hover{
+	background-color: rgba(22,21,21,1.00);
+	border: none;
+	transform: scale(1.2);
+	transition: all ease .8s;
+}
+.banner button:hover a{
+	color: aliceblue;
+} 
+.tinhnang1{
+	background-image: url(../images/se.jpg);
+	background-size: contain;
+	width: 100%;
+	height: 1200px;
+	background-repeat: no-repeat;
+	color: rgba(0,0,0,1.00);	}
+.noidungtinhnang1{
+	width: 40%;
+	height: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding:20% 0% 0% 10%;
+	
+}
+.noidungtinhnang1 h3{
+	color: rgba(255,0,4,1.00);}
+.noidungtinhnang1 h2{
+	color: rgba(0,0,0,1.00);}
+.noidungtinhnang1 h1{
+	color: rgba(0,0,0,1.00);}
+.tinhnang1 button{
+	background-color: rgba(15,148,223,1.00);
+	border: solid;
+	border-radius: 3000px;
+	height: 60px;
+	width: 120px;
+	color: white;
+	margin-top: 30px;
+}
+
+.tinhnang1 button a{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	font-weight: bolder;
+}
+.tinhnang1 button:hover{
+	background-color: rgba(0,0,0,1.00);
+	border: none;
+	transform: scale(1.2);
+	transition: all ease .8s;
+}
+.tinhnang1 button:hover a{
+	color: aliceblue;
+} 
+.tinhnang2{
+	background-image: url(../images/33.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	}
+
+.noidungtinhnang2{
+	width: 40%;
+	height:90px;
+	text-align: center;
+	color: white;
+	padding: 30% 30% 18% 30%;
+}
+.noidungtinhnang2 h2{
+	color: rgba(255,255,255,1.00);
+	font-size:50px;
+}
+.noidungtinhnang2 h1{
+	color: rgba(255,255,255,1.00);
+	font-size:30px;
+	}
+.tinhnang2 button a{
+	text-decoration: inherit;
+	color: rgba(0,0,0,1.00);
+	font-weight: inherit;
+}
+.tinhnang2 button:hover{
+	background-color: rgba(49,126,243,1.00);
+	border: none;
+	transform: scale(1.2);
+	transition: all ease .8s;
+}
+.tinhnang2 button:hover a{
+	color: aliceblue;}
+
+
+.sosanh{
+	background-image: url(../images/nen1.jpg);
+	background-size: cover;
+	width: 70%;
+	height: 400px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	padding-top: 10%;
+	padding-left: 30%;
+	background-attachment: fixed;
+
+}
+.noidungsosanh{
+	padding: 5px;
+	background-color: rgba(255,255,255,1.00);
+	border-radius: 500px;
+	width: 80%;
+	margin: 0 0 10% -13%;
+}
+
+
+.noidungsosanh h1{
+	color: rgba(0,0,0,1.00);
+	font-size: 50px;
+	
+}
+.noidungsosanh p{
+	color: rgba(0,0,0,1.00);
+	font-size: 30px;
+	
+}
+.noidungsosanh:hover p{
+	color: rgba(5,0,126,1.00);
+	
+}
+
+.sanphamsosanh{
+	background-color: white;
+	width: 80%;
+	height: 1450px;
+	padding: 6% 0 6% 15%;
+	
+}
+.chitietsanpham{
+	width: 25%;
+	height: auto;
+	background-color: white;
+	float: left;
+	padding: 10px;
+	margin: 20px;
+}
+.chitietsanpham img{
+	width: 100%;
+}
+.chitietsanpham:hover img{
+	transform: scale(1.3);
+	transition: all ease .8s;
+	filter: brightness(10px);}
+
+
+
+.ungdung{
+	background-image: url(../images/22.jpg);
+	background-size: cover;
+	width: 70%;
+	height: 200px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+	padding-left: 30%;
+	background-attachment: fixed;
+
+}
+.noidungungdung{
+	padding: 5px;
+	background-color: rgba(255,255,255,1.00);
+	border-radius: 500px;
+	width: 80%;
+	margin: 0 0 0 -13%;
+}
+
+
+.noidungungdung h1{
+	color: rgba(0,0,0,1.00);
+	font-size: 50px;
+	
+}
+.noidungungdung:hover h1{
+	color: rgba(248,4,9,1.00);
+	transform: scale(1.2);
+	
+}
+.ungdungthem{
+	width: 100%;
+	height: auto;
+	background-color: rgba(177,42,44,1.00);
+	
+	
+}
+.ungdung11{
+	width: 60%;
+	background-color:rgba(0,0,0,1.00);
+	margin-bottom: 100px;
+	height: 500px;
+	margin-left: 19%;
+	margin-top: 100px;
+	float: left;
+	}
+.noidungungdung11{
+	padding-right: 15%;
+	padding-top: 10%;
+	width: 30%;
+	text-align: center;
+	float: right;
+	color: white;
+	}
+
+.iconungdung11{
+	width: 50%;
+	padding: 10%;
+	margin-left: 10%;
+}
+.icon{
+	text-align: center;
+	padding: 2%;
+	margin: 2%;
+	width: 35%;
+	}
+.icon:hover{
+	transform: translateX(10px);}
+
+.footer{
+	width: 60%;
+	padding: 300px 20%;
+	background-color: rgba(23,22,22,1.00);
+	height: 650px;
+}
+.footernoidung{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-right: 10%;
+	color: white;
+}
+.footernoidung input{
+	margin-top: 15%;
+	margin-right: 5%;
+	width: 25%;
+	background-color: transparent;
+	border: double;
+	border-bottom: solid 2px white;
+	padding: 2% 1%;
+	color: white;
+	float: left;
+}
+.lienlac{
+	width: 40%;
+	padding-right: 10%;
+	float: left;
+}
